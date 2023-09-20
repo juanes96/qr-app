@@ -1,0 +1,33 @@
+.qr-screen {
+  background-color: #6200ea; /* Color púrpura */
+  text-align: center;
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.qr-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.qr-code {
+  margin: 20px auto;
+}
+
+.scan-link {
+  display: inline-block;
+  background-color: #ff4081; /* Color rosa */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.scan-link:hover {
+  background-color: #d50069; /* Color rosa oscuro en hover */
+}
+
